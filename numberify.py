@@ -3,7 +3,7 @@
 
 import sys
 
-userfile, songfile, infile, outfile = sys.argv[1:5]
+userfile, songfile, infile, outfile = sys.argv[1:]
 
 users = {}
 for n, line in enumerate(open(userfile), start=1):
